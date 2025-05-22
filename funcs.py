@@ -4,7 +4,7 @@ from time import sleep
 
 arquivo = "arquivos-pkl/posicao.pkl"
 
-class Funcoes:
+class Mouse:
 
     def posicao(self) -> None:
         sleep(5.0) # tempo de espera de 5 segundos

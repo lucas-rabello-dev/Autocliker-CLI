@@ -1,10 +1,13 @@
 import customtkinter as ctk
-from funcs import Funcoes
+from funcs import Mouse
+from escritor import Escritor
 
-f = Funcoes()
+m = Mouse()
+e = Escritor()
 
+# i = input(">>> ")
 
-
+m.posicao()
 
 
 
