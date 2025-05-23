@@ -28,7 +28,7 @@ class Escritor:
         except:
             raise FileNotFoundError("O arquivo não existe!")
         
-
+    # pegar o texto no arquivo mas com um return dele
     def pegar_texto(self) -> str:
         try:
             with open(arquivo, "rb") as file:
